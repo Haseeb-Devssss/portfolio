@@ -49,6 +49,107 @@
       <a href="#projects" class="btn btn-outline magnetic">See My Work</a>
     </div>
   </section>
+  
+  <!-- Cursor spotlight (follows the mouse) -->
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <!-- ==========================================
+       SERVICES
+       ========================================== -->
+  <section class="section" id="services">
+    <p class="eyebrow">Services</p>
+    <h2 class="section-title">What I can do <span>for your business</span></h2>
+    <p class="section-text">
+      Three services that work together: a website that brings in customers,
+      a chatbot that answers them, and automations that do the boring work.
+    </p>
+
+    <div class="services-grid">
+      <!-- Card 1 -->
+      <article class="service-card">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+        </div>
+        <h3>Website Development</h3>
+        <p>Fast, modern websites and landing pages that look great on every phone and turn visitors into customers.</p>
+        <ul class="service-list">
+          <li>Business websites &amp; landing pages</li>
+          <li>WordPress &amp; custom code</li>
+          <li>Mobile-friendly &amp; SEO-ready</li>
+        </ul>
+      </article>
+
+      <!-- Card 2 -->
+      <article class="service-card featured">
+        <span class="card-tag">Most popular</span>
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/><path d="M8 9h.01M12 9h.01M16 9h.01"/></svg>
+        </div>
+        <h3>AI Chatbots</h3>
+        <p>A smart assistant on your website that answers customer questions 24/7 using your own business information.</p>
+        <ul class="service-list">
+          <li>Trained on your FAQs &amp; services</li>
+          <li>Captures leads &amp; bookings</li>
+          <li>Website, WhatsApp or Messenger</li>
+        </ul>
+      </article>
+
+      <!-- Card 3 -->
+      <article class="service-card">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+        </div>
+        <h3>AI Automation</h3>
+        <p>Workflows with n8n and Make that handle repetitive tasks for you, so you save hours every week.</p>
+        <ul class="service-list">
+          <li>Lead management &amp; CRM</li>
+          <li>Auto emails &amp; follow-ups</li>
+          <li>Google Sheets, Gmail, WhatsApp</li>
+        </ul>
+      </article>
+    </div>
+
+    <!-- Animated workflow diagram -->
+    <div class="workflow">
+      <p class="workflow-title">⚡ Example: a lead automation I can build for you</p>
+
+      <div class="workflow-track">
+        <div class="node" style="--i: 0">
+          <span class="node-icon">📝</span>
+          <strong>Form submitted</strong>
+          <small>Trigger</small>
+        </div>
+        <div class="connector" style="--i: 0"></div>
+
+        <div class="node" style="--i: 1">
+          <span class="node-icon">🤖</span>
+          <strong>AI checks lead</strong>
+          <small>OpenAI / Claude</small>
+        </div>
+        <div class="connector" style="--i: 1"></div>
+
+        <div class="node" style="--i: 2">
+          <span class="node-icon">📊</span>
+          <strong>Save to Sheet</strong>
+          <small>Google Sheets</small>
+        </div>
+        <div class="connector" style="--i: 2"></div>
+
+        <div class="node" style="--i: 3">
+          <span class="node-icon">✉️</span>
+          <strong>Reply by email</strong>
+          <small>Gmail</small>
+        </div>
+        <div class="connector" style="--i: 3"></div>
+
+        <div class="node" style="--i: 4">
+          <span class="node-icon">📱</span>
+          <strong>Alert owner</strong>
+          <small>WhatsApp</small>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <script src="script.js"></script>
 </body>
