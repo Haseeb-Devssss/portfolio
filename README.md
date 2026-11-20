@@ -27,8 +27,8 @@ This site is built one module at a time.
 |---|---|---|
 | 1 | Project setup and first deploy | ✅ Done |
 | 2 | Bubble navbar, hero, button effects, typing effect | ✅ Done |
-| 3 | Services, workflow diagram, cursor glow | 🔄 Next |
-| 4 | About and skills | ⏳ Planned |
+| 3 | Services, workflow diagram, cursor glow | ✅ Done |
+| 4 | About, skills, scroll reveal animations | 🔄 Next |
 | 5 | Projects | ⏳ Planned |
 | 6 | Contact form (connected to an n8n workflow) | ⏳ Planned |
 | 7 | Mobile polish, SEO and launch | ⏳ Planned |
